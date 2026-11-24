@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="data:," />
+    <title>Kamus Bahase Ogan — Penerjemah Ogan Indonesia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Lora:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="./assets/index--FltqRNo.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DnvjGCJl.css">
+  </head>
+  <body>
+    <header class="hero">
+      <div class="wrap hero-inner">
+        <h1>Kamus <em>Bahase Ogan</em></h1>
+        <p>Penerjemah dua arah Bahasa Ogan dan Bahasa Indonesia, bekerja dari kamus dan aturan bunyi Bahase Ogan — bahasa masyarakat di sepanjang Sungai Ogan, Sumatera Selatan.</p>
+        <div class="hero-stats">
+          <span id="statWords">… kata di kamus</span>
+          <span>Ogan → Indonesia</span>
+          <span>Indonesia → Ogan</span>
+          <span>Base Ugan · Rumpun Melayu</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <!-- ================= TRANSLATOR ================= -->
+      <div class="translator">
+        <div class="t-card">
+          <div class="t-bar">
+            <div class="t-lang" id="langFrom"><span class="tag">Dari</span><span id="langFromName">Bahasa Ogan</span></div>
+            <button class="swap-btn" id="swapBtn" type="button" aria-label="Tukar arah terjemahan" title="Tukar arah terjemahan">Tukar arah</button>
+            <div class="t-lang right" id="langTo"><span id="langToName">Bahasa Indonesia</span><span class="tag">Ke</span></div>
+          </div>
+          <div class="t-panels">
+            <div class="t-panel">
+              <label for="inputText" id="inputLabel">Teks Bahasa Ogan</label>
+              <textarea id="inputText" placeholder="Ketik atau tempel teks di sini…" autocomplete="off" autocapitalize="off" spellcheck="false"></textarea>
+              <div class="t-tools">
+                <button class="btn small" id="clearBtn" type="button">Hapus</button>
+                <span class="spacer"></span>
+                <span class="count" id="charCount">0 karakter</span>
+              </div>
+            </div>
+            <div class="t-panel out">
+              <label id="outputLabel">Hasil — Bahasa Indonesia</label>
+              <div class="output" id="outputText"><span class="ph">Hasil terjemahan akan muncul di sini…</span></div>
+              <div class="t-tools">
+                <button class="btn small" id="copyBtn" type="button">Salin hasil</button>
+                <button class="btn small" id="useOutputBtn" type="button">Pakai hasil sebagai teks baru</button>
+              </div>
+            </div>
+          </div>
+          <div class="legend">
+            <span><span class="w-rule">kata dengan titik-titik</span> = hasil aturan bunyi Ogan</span>
+            <span><span class="w-unknown">kata bergaris gelombang</span> = belum ada di kamus</span>
+          </div>
+          <div class="unknown-note" id="unknownNote"></div>
+        </div>
+        <div class="examples-row" id="quickExamples">
+          <span>Coba sekali ketuk:</span>
+        </div>
+      </div>
+
+      <!-- ================= TENTANG BAHASA ================= -->
+      <section id="tentang">
+        <h2>Tentang Bahase Ogan</h2>
+        <p class="sec-intro">Bahasa Ogan — disebut <b>Base Ugan</b> oleh penuturnya — pada mulanya dituturkan masyarakat yang berdiam di pesisir dan tepian sepanjang <b>Sungai Ogan, Sumatera Selatan</b>. Suku Ogan termasuk rumpun Melayu, sehingga Bahase Ogan pun termasuk bahasa Melayu dengan ciri khas <b>dialek e pepet</b>, mirip bahasa Melayu di Malaysia.</p>
+        <div class="grid c3" id="aboutCards"></div>
+        <div class="dir-grid" id="directionGrid"></div>
+      </section>
+
+      <!-- ================= ATURAN ================= -->
+      <section id="aturan">
+        <h2>Aturan Bunyi Bahase Ogan</h2>
+        <p class="sec-intro">Penerjemah di atas memakai aturan serapan ini — sebagaimana didokumentasikan dalam Kamus Bahasa Ogan — untuk kata-kata Melayu/Indonesia yang belum tercatat satu per satu di kamus.</p>
+        <div class="grid c2" id="soundRules"></div>
+      </section>
+
+      <!-- ================= KAMUS ================= -->
+      <section id="kamus">
+        <h2>Kamus Bahase Ogan</h2>
+        <p class="sec-intro">Seluruh daftar kata di bawah ini adalah bahan yang sama yang dipakai penerjemah. Ketuk tombol <b>“Pakai”</b> pada sebuah kata untuk langsung mencobanya di penerjemah. Contoh kalimat dikutip dari kamus susunan Joni Faisal.</p>
+        <div class="dict-tools">
+          <div class="search-box">
+            <input id="dictSearch" type="search" placeholder="Cari kata Ogan atau artinya… misalnya: humah, rumah, makan" aria-label="Cari di kamus" />
+          </div>
+          <div class="letters" id="letterBar"></div>
+        </div>
+        <p class="dict-count" id="dictCount"></p>
+        <div id="dictList"></div>
+        <div class="no-result" id="noResult">Tidak ada kata yang cocok. Coba kata lain — atau kata itu memang belum tercatat di kamus ini.</div>
+      </section>
+
+      <!-- ================= CARA KERJA ================= -->
+      <section id="cara-kerja">
+        <h2>Cara Kerja &amp; Batasan</h2>
+        <div class="grid c2" id="howItWorks"></div>
+      </section>
+
+      <!-- ================= SUMBER ================= -->
+      <section id="dukung">
+        <h2>Dukung Proyek Ini</h2>
+        <div class="card support">
+          <p>Kamus ini gratis dan disusun untuk ikut melestarikan Bahase Ogan. Kalau terasa bermanfaat, dukunganmu membantu menambah kosakata dan merawat situs ini.</p>
+          <a class="donate-btn" id="donateBtn" href="#" target="_blank" rel="noopener">Dukung / Donasi</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <b>Kamus Bahase Ogan</b> — penerjemah &amp; kamus Bahasa Ogan dan Bahasa Indonesia berbasis kamus Joni Faisal dan aturan bunyi Base Ugan. Disusun untuk membantu melestarikan bahasa daerah Sumatera Selatan.
+      </div>
+    </footer>
+
+    <div class="toast" id="toast">Tersalin ✓</div>
+
+  </body>
+</html>
