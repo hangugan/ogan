@@ -1,0 +1,8 @@
+/* ---------- Hero ---------- */
+.hero{ position:relative; overflow:hidden; background:var(--brand); color:#fff; }
+.hero-inner{ position:relative; padding:44px 0 40px; max-width:640px; }
+.hero h1{ font-family:"Lora", Georgia, serif; font-size:clamp(2rem, 6vw, 3.1rem); line-height:1.08; margin:0 0 10px; font-weight:700; }
+.hero h1 em{ font-style:italic; color:#ffd9a8; }
+.hero p{ margin:0 0 18px; font-size:1.02rem; color:#e9f0e6; max-width:34em; }
+.hero-stats{ display:flex; flex-wrap:wrap; gap:8px; }
+.hero-stats span{ background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.35); padding:6px 12px; border-radius:999px; font-size:.85rem; font-weight:600; backdrop-filter:blur(2px); }

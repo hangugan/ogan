@@ -1,0 +1,19 @@
+{
+ "indoToOgan": {
+  "besar": "besak",
+  "antar": "antat",
+  "seekor": "sikok",
+  "seikat": "sijat",
+  "sehelai": "selai",
+  "sehari": "sahi",
+  "saya": "aku"
+ },
+ "oganToIndo": {
+  "sikok": "seekor",
+  "sijat": "seikat",
+  "selai": "sehelai",
+  "sahi": "sehari",
+  "besak": "besar",
+  "antat": "antar"
+ }
+}

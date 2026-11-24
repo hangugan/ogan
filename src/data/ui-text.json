@@ -1,0 +1,31 @@
+{
+  "translator": {
+    "charCount": "{count} karakter",
+    "resultPlaceholder": "Hasil terjemahan akan muncul di sini…",
+    "languages": { "ogan": "Bahasa Ogan", "indo": "Bahasa Indonesia" },
+    "inputLabel": { "og2id": "Teks Bahasa Ogan", "id2og": "Teks Bahasa Indonesia" },
+    "outputLabel": { "og2id": "Hasil — Bahasa Indonesia", "id2og": "Hasil — Bahasa Ogan" },
+    "inputPlaceholder": {
+      "og2id": "Ketik teks Bahase Ogan… misalnya: Die galak makan",
+      "id2og": "Ketik teks Bahasa Indonesia… misalnya: Rumah saya besar"
+    },
+    "ruleTooltip": "Hasil aturan bunyi Bahase Ogan",
+    "unknownTooltip": "Belum ada di kamus",
+    "unknownTitle": "Belum ada di kamus:",
+    "unknownFooter": "Kata di atas ditampilkan apa adanya — penerjemah ini tidak menebak-nebak arti kata yang belum tercatat di Kamus Bahasa Ogan."
+  },
+  "toast": {
+    "copied": "Hasil tersalin ✓",
+    "nothingToCopy": "Belum ada hasil untuk disalin",
+    "copyFailed": "Gagal menyalin"
+  },
+  "dictionary": {
+    "all": "Semua",
+    "use": "Pakai",
+    "statWords": "{count} kata di kamus",
+    "count": "Menampilkan {shown} dari {total} kata",
+    "countLetter": " · huruf {letter}",
+    "countQuery": " · pencarian \"{query}\"",
+    "alsoLabel": "juga: {variants}"
+  }
+}

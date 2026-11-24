@@ -1,0 +1,44 @@
+{
+ "regionCards": [
+  {
+   "title": "Wilayah tutur",
+   "text": "Dikenal pembagian Ulu Ogan (daerah Kelumpang), Ogan Ulu (Kecamatan Pengandonan), Ogan Baturaja (Kota Baturaja), dan Ogan Ilir (Lubuk Batang dan Muara Kuang) — mengikuti aliran Sungai Ogan dari hulu ke hilir."
+  },
+  {
+   "title": "Huruf R yang “menghilang”",
+   "text": "Huruf <b>R</b> hampir tidak dipakai dalam Bahase Ogan; umumnya berubah menjadi <b>H</b>. Kata <i>rumah</i> menjadi <i>humah</i>, <i>akar</i> menjadi <i>akah</i>. Ada pengecualian terkenal: <i>besar</i> menjadi <i>besak</i> dan <i>antar</i> menjadi <i>antat</i>."
+  },
+  {
+   "title": "Arah mengikuti sungai",
+   "text": "Penunjuk arah tidak memakai patokan utara–selatan, melainkan aliran sungai: asal aliran disebut <i>ulu</i>, tujuan aliran <i>ileh</i>, yang dekat sungai <i>lembak</i>, yang jauh dari sungai <i>dahat</i>."
+  }
+ ],
+ "directions": [
+  {
+   "word": "ulu",
+   "meaning": "hulu — asal aliran sungai"
+  },
+  {
+   "word": "ileh",
+   "meaning": "ilir / hilir — tujuan aliran"
+  },
+  {
+   "word": "lembak",
+   "meaning": "lembah — dekat sungai"
+  },
+  {
+   "word": "dahat",
+   "meaning": "darat — jauh dari sungai"
+  }
+ ],
+ "howItWorks": [
+  {
+   "title": "Ini bukan Google Translate neural",
+   "text": "Penerjemah ini bekerja seperti kamus yang pintar: pertama mencocokkan <b>frasa dan kata</b> dari Kamus Bahasa Ogan, lalu menerapkan <b>aturan bunyi</b> yang terdokumentasi (r → h, -a → -e, h hilang, imbuhan melebur, dan sebagainya). Tidak ada tebakan makna: kata yang tidak ditemukan akan <b>ditandai “belum ada di kamus”</b> dan ditampilkan apa adanya."
+  },
+  {
+   "title": "Kapan hasilnya bisa kurang akurat?",
+   "text": "Kalimat yang panjang, bahasa gaul modern, istilah baru, dan kata yang punya banyak arti bisa kurang tepat — kamus mencatat arti yang paling umum. Dialek antarwilayah Ogan (Ulu, Baturaja, Ilir) juga bisa berbeda-beda. Untuk percakapan sehari-hari dan belajar kosakata, hasilnya cukup membantu; untuk teks resmi, selalu tanyakan penutur asli."
+  }
+ ]
+}

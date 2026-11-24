@@ -1,0 +1,36 @@
+/* ---------- Sections ---------- */
+section{ padding:38px 0 6px; }
+h2{ font-family:"Lora", Georgia, serif; font-size:clamp(1.45rem, 4vw, 1.9rem); margin:0 0 8px; line-height:1.2; }
+.sec-intro{ color:var(--ink-soft); margin:0 0 20px; max-width:44em; }
+.grid{ display:grid; gap:14px; }
+.grid.c2{ grid-template-columns:repeat(2, 1fr); }
+.grid.c3{ grid-template-columns:repeat(3, 1fr); }
+@media (max-width:820px){ .grid.c3{ grid-template-columns:1fr 1fr; } }
+@media (max-width:600px){ .grid.c2, .grid.c3{ grid-template-columns:1fr; } }
+.card{ background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:18px; }
+.card h3{ margin:0 0 6px; font-size:1.02rem; }
+.card p{ margin:0; color:var(--ink-soft); font-size:.94rem; }
+.rule-ex{ margin-top:10px; display:flex; flex-wrap:wrap; gap:6px; align-items:center; font-size:.95rem; }
+.rule-ex .og{ font-family:"Lora", Georgia, serif; font-weight:700; color:var(--brand); }
+.rule-ex .arr{ color:var(--accent); font-weight:800; }
+.rule-ex .idn{ font-weight:600; }
+.dir-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+@media (max-width:720px){ .dir-grid{ grid-template-columns:1fr 1fr; } }
+.dir-cell{ background:var(--brand); color:#fff; border-radius:var(--radius); padding:16px; text-align:center; }
+.dir-cell .w{ font-family:"Lora", Georgia, serif; font-size:1.5rem; font-weight:700; display:block; }
+.dir-cell .m{ font-size:.88rem; opacity:.9; }
+
+.src-list{ margin:0; padding-left:1.1em; }
+.src-list li{ margin-bottom:7px; }
+footer{ margin-top:44px; border-top:1px solid var(--line); background:var(--bg2); padding:24px 0 34px; color:var(--ink-soft); font-size:.9rem; }
+
+footer b{ color:var(--ink); }
+#directionGrid{ margin-top:14px; }
+
+.support{ text-align:center; }
+.support p{ margin:0 0 16px; }
+.donate-btn{
+  display:inline-block; background:var(--accent); color:#fff; padding:12px 28px;
+  border-radius:999px; font-weight:700; text-decoration:none; box-shadow:var(--shadow);
+}
+.donate-btn:hover{ filter:brightness(1.08); }

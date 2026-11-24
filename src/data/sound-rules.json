@@ -1,0 +1,114 @@
+[
+ {
+  "title": "1 · Akhiran -a menjadi -e",
+  "text": "Kata serapan yang suku terakhirnya berakhiran vokal <i>a</i> sebagian besar berubah berbunyi <i>e</i> (e pepet).",
+  "examples": [
+   {
+    "indo": "cara",
+    "ogan": "care"
+   },
+   {
+    "indo": "lama",
+    "ogan": "lame"
+   }
+  ]
+ },
+ {
+  "title": "2 · Konsonan r menjadi h",
+  "text": "Konsonan <i>r</i> pada kata serapan sebagian berubah menjadi <i>h</i> — kecuali <i>besar → besak</i> dan <i>antar → antat</i>.",
+  "examples": [
+   {
+    "indo": "akar",
+    "ogan": "akah"
+   },
+   {
+    "indo": "garam",
+    "ogan": "gaham"
+   },
+   {
+    "indo": "sangkar burung",
+    "ogan": "sangkah buhung"
+   }
+  ]
+ },
+ {
+  "title": "3 · Huruf h sebagian hilang",
+  "text": "Konsonan <i>h</i> pada kata serapan sebagian menjadi hilang.",
+  "examples": [
+   {
+    "indo": "hujan",
+    "ogan": "ujan"
+   },
+   {
+    "indo": "pahit",
+    "ogan": "pait"
+   }
+  ]
+ },
+ {
+  "title": "4 · Imbuhan ber- / ter- kehilangan r",
+  "text": "Pada imbuhan <i>ber-</i> dan <i>ter-</i>, huruf <i>r</i> menjadi hilang.",
+  "examples": [
+   {
+    "indo": "bertenaga",
+    "ogan": "betenage"
+   },
+   {
+    "indo": "terjerumus",
+    "ogan": "tejehumus"
+   },
+   {
+    "indo": "terlepas",
+    "ogan": "tekacai"
+   }
+  ]
+ },
+ {
+  "title": "5 · Imbuhan me- tinggal sisipannya",
+  "text": "Bila imbuhan <i>me-</i> mendapat sisipan <i>m, n, ng,</i> atau <i>ny</i>, imbuhan <i>me-</i> hilang dan yang dibaca hanya huruf sisipannya.",
+  "examples": [
+   {
+    "indo": "membancuh",
+    "ogan": "mbancoh"
+   },
+   {
+    "indo": "menanak",
+    "ogan": "nanak"
+   },
+   {
+    "indo": "menganyam",
+    "ogan": "nganyam"
+   },
+   {
+    "indo": "menyembulung",
+    "ogan": "nyembulung"
+   }
+  ]
+ },
+ {
+  "title": "6 · Kata depan ke- dan se- melebur",
+  "text": "<i>Ke-</i> bertemu kata berawalan vokal <i>a</i> atau <i>u</i>, dan <i>se-</i> (berarti satu) bertemu kata berawalan vokal, huruf <i>e</i>-nya hilang.",
+  "examples": [
+   {
+    "indo": "ke ayahk",
+    "ogan": "kayahk"
+   },
+   {
+    "indo": "ke ume",
+    "ogan": "kume"
+   },
+   {
+    "indo": "seikat",
+    "ogan": "sijat"
+   },
+   {
+    "indo": "seekor",
+    "ogan": "sikok"
+   },
+   {
+    "indo": "seorang",
+    "ogan": "suhang"
+   }
+  ]
+ }
+]
