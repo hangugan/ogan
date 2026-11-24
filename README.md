@@ -1,3 +1,18 @@
+```text
+              /\                      \ | /
+            /    \        _\/_       -- * --
+          /   /\   \     /    \       / | \
+        /____/__\____\  /______\
+         |  [=]  [=] |    |  |
+         |____[#]____|    |__|         _~_
+          ||  ||  ||\      ||        _/___\_
+__________||__||__||_\_____||_______/_______\_____
+  ~   ~     ~    ~     ~     ~   ~      ~      ~
+    ~    ~     ~    \_/\_/     ~     ~     ~    ~
+  ~    ~    ~    ~    ~     ~    ~      ~     ~
+```
+
+
 # Kamus Bahase Ogan
 
 Penerjemah dua arah **Bahasa Ogan ↔ Bahasa Indonesia** (Base Ugan, Sumatera Selatan).
@@ -63,6 +78,20 @@ Tambahkan satu objek di akhir `src/data/dictionary.json`:
 - `example`: opsional.
 - Jika dua entri memakai kata yang sama, entri yang **lebih atas** di file yang menang.
 
-## Sumber data
+## Batasan & Catatan Penggunaan
 
-Kamus Bahasa Ogan susunan Joni Faisal. 
+Aplikasi ini masih memiliki keterbatasan dalam menerjemahkan kalimat utuh maupun struktur tata bahasa yang kompleks:
+
+- **Berbasis Kamus & Aturan Bunyi:** Proses terjemahan bekerja melalui pencocokan kosakata kamus dan pola perubahan bunyi (*Base Ugan*), bukan model kecerdasan buatan (*neural translation*) yang memahami konteks kalimat secara menyeluruh.
+- **Kalimat Panjang & Imbuhan Kompleks:** Susunan kalimat majemuk, ungkapan kiasan, atau kata berimbuhan bertingkat berpotensi diterjemahkan secara harfiah per kata.
+- **Variasi Dialek Wilayah:** Kosakata dan pelafalan dapat berbeda antarwilayah tutur (seperti Ulu Ogan, Baturaja, hingga Ogan Ilir).
+
+Untuk kebutuhan percakapan sehari-hari dan pencarian kosakata dasar, aplikasi ini sudah cukup membantu; namun untuk teks resmi atau konteks mendalam, disarankan tetap mengonfirmasinya kepada penutur asli Bahasa Ogan.
+
+
+## Dukung Proyek
+
+Jika aplikasi ini bermanfaat dan ingin mendukung pengembangan kosakata serta fitur berikutnya:
+
+[![Dukung di Trakteer](https://img.shields.io/badge/Trakteer-Dukung%20hangugan-be1e2d?style=for-the-badge&logo=buymeacoffee&logoColor=white)](https://trakteer.id/hangugan)
+
